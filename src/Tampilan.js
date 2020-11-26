@@ -36,7 +36,7 @@ const Tampilan = () => {
                 </Breadcrumb>
                 <div className="site-layout-content">
                     <div className="Components">
-                        <div class="container">
+                        <div className="container">
                             <h2>Holidays in 2019. Not Relevant, Right?</h2>
                             <br />
                             <Holidays/>
