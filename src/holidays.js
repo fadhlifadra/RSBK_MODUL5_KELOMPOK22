@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { Card, Space, Button, notification } from 'antd';
 import "antd/dist/antd.css";
-import { Card, Space } from 'antd';
-import { Button, notification } from 'antd';
 
 
 export default class holidays extends Component {
@@ -18,13 +17,9 @@ export default class holidays extends Component {
     }
     handleButton = (name, date) => {
         notification.open({
-            message: 'Holiday Name :',
-            description: name, 
-          });
-          notification.open({
-            message: 'Holiday Date :',
-            description: date, 
-          });
+            message: 'Holiday Name : ' + name,
+            description: 'Holiday Date : ' + date,
+        });
     };
     handleName = (e) => {
         this.setState({
