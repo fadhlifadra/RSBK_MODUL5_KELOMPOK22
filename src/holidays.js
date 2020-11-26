@@ -70,7 +70,7 @@ export default class holidays extends Component {
                         return (
                             <div key={results.name}>
                                 <Space>
-                                    <Card title="Holiday" className="pt-pl-pd-pr-2" style={{ width: 240 }}>
+                                    <Card title="Holiday" style={{ width: 300 }}>
                                         <p>Name : {results.name}</p>
                                         <p>Date : {results.date}</p>
                                         <p>Observed : {results.observed}</p>
